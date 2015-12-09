@@ -13,6 +13,7 @@ alias deployDev='grunt push_files --target=staging && grunt push_db --target=sta
 alias deployProduction='grunt push_files --target=production && grunt push_db --target=production';
 alias npmSave='npm install --save-dev';
 alias reloadProfile='source ~/.bash_profile';
+alias updateSoftware='sudo softwareupdate -i -a';
 # For the Empire
 alias watchStarWars='telnet towel.blinkenlights.nl';
 # For when you need a sarcastic laugh to talk down to others.
