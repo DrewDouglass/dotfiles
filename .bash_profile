@@ -1,5 +1,5 @@
 # General Aliases
-alias ls='ls -GFh';
+alias ls='ls -GFha';
 alias sortBySize="ls -s | sort -n";
 alias goDropbox='cd ~/Dropbox';
 alias goDesktop='cd ~/Desktop';
@@ -12,6 +12,7 @@ alias dateTime='date "+%F %T"';
 alias deployDev='grunt push_files --target=staging && grunt push_db --target=staging';
 alias deployProduction='grunt push_files --target=production && grunt push_db --target=production';
 alias npmSave='npm install --save-dev';
+alias reloadProfile='source ~/.bash_profile';
 # For the Empire
 alias watchStarWars='telnet towel.blinkenlights.nl';
 # For when you need a sarcastic laugh to talk down to others.
