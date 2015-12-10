@@ -14,6 +14,7 @@ alias deployProduction='grunt push_files --target=production && grunt push_db --
 alias npmSave='npm install --save-dev';
 alias reloadProfile='source ~/.bash_profile';
 alias updateSoftware='sudo softwareupdate -i -a';
+alias optimizeImgs='imageoptim --image-alpha --directory ~/Desktop/optimizeimages';
 # For the Empire
 alias watchStarWars='telnet towel.blinkenlights.nl';
 # For when you need a sarcastic laugh to talk down to others.
