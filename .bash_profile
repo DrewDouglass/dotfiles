@@ -15,6 +15,7 @@ alias npmSave='npm install --save-dev';
 alias reloadProfile='source ~/.bash_profile';
 alias updateSoftware='sudo softwareupdate -i -a';
 alias optimizeImgs='imageoptim --image-alpha --directory ~/Desktop/optimizeimages';
+alias goSublime='open ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/';
 # For the Empire
 alias watchStarWars='telnet towel.blinkenlights.nl';
 # For when you need a sarcastic laugh to talk down to others.
