@@ -11,6 +11,7 @@ alias flushDatDNS='dscacheutil -flushcache;sudo killall -HUP mDNSResponder';
 alias dateTime='date "+%F %T"';
 alias deployDev='grunt push_files --target=staging && grunt push_db --target=staging';
 alias deployProduction='grunt push_files --target=production && grunt push_db --target=production';
+alias pullProduction='grunt pull_files --target=production && grunt pull_db --target=production';
 alias npmSave='npm install --save-dev';
 alias reloadProfile='source ~/.bash_profile';
 alias updateSoftware='sudo softwareupdate -i -a';
