@@ -18,6 +18,7 @@ alias updateSoftware='sudo softwareupdate -i -a';
 alias optimizeImgs='imageoptim --image-alpha --directory ~/Desktop/optimizeimages';
 alias goSublime='open ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/';
 alias getYoutubeAudio='youtube-dl --extract-audio --embed-thumbnail --audio-format "mp3"';
+alias textEditPlainText='defaults write com.apple.TextEdit RichText -int 0';
 # For the Empire
 alias watchStarWars='telnet towel.blinkenlights.nl';
 # For when you need a sarcastic laugh to talk down to others.
