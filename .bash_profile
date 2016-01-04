@@ -20,6 +20,9 @@ alias goSublime='open ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/U
 alias getYoutubeAudio='youtube-dl --extract-audio --embed-thumbnail --audio-format "mp3"';
 alias textEditPlainText='defaults write com.apple.TextEdit RichText -int 0';
 alias ejectAllVolumes="osascript -e 'tell application "Finder" to eject (every disk whose ejectable is true)'";
+#plays iOS charge sound when plugged in
+alias playChimeCharge='defaults write com.apple.PowerChime ChimeOnAllHardware -bool true && \
+open /System/Library/CoreServices/PowerChime.app'
 # For the Empire
 alias watchStarWars='telnet towel.blinkenlights.nl';
 # For when you need a sarcastic laugh to talk down to others.
