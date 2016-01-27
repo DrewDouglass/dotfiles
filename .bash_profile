@@ -21,6 +21,7 @@ alias getYoutubeAudio='youtube-dl --extract-audio --embed-thumbnail --audio-form
 alias textEditPlainText='defaults write com.apple.TextEdit RichText -int 0';
 alias ejectAllVolumes="osascript -e 'tell application "Finder" to eject (every disk whose ejectable is true)'";
 alias showSoftwareUpdates="sudo softwareupdate -l";
+alias getWordPress='wget https://wordpress.org/latest.tar.gz';
 #plays iOS charge sound when plugged in
 alias playChimeCharge='defaults write com.apple.PowerChime ChimeOnAllHardware -bool true && \
 open /System/Library/CoreServices/PowerChime.app'
