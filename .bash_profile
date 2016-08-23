@@ -22,6 +22,7 @@ alias textEditPlainText='defaults write com.apple.TextEdit RichText -int 0';
 alias ejectAllVolumes="osascript -e 'tell application "Finder" to eject (every disk whose ejectable is true)'";
 alias showSoftwareUpdates="sudo softwareupdate -l";
 alias getWordPress='wget https://wordpress.org/latest.tar.gz';
+alias startbarDeployDev='fab stage:sblanding deploy && fab vagrant:sblanding pull && fab stage:sblanding push';
 #plays iOS charge sound when plugged in
 alias playChimeCharge='defaults write com.apple.PowerChime ChimeOnAllHardware -bool true && \
 open /System/Library/CoreServices/PowerChime.app'
@@ -150,3 +151,4 @@ export HISTTIMEFORMAT='%Y-%m-%d %H:%M:%S  ';
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH;
 # Finished adapting your PATH environment variable for use with MacPorts.
 
+export PATH="/usr/local/bin:$PATH"
