@@ -150,3 +150,4 @@ export HISTTIMEFORMAT='%Y-%m-%d %H:%M:%S  ';
 # MacPorts Installer addition on 2012-12-17_at_03:07:13: adding an appropriate PATH variable for use with MacPorts.
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH;
 # Finished adapting your PATH environment variable for use with MacPorts.
+export PATH="/usr/local/bin:$PATH
