@@ -1,3 +1,4 @@
+source ~/.profile
 # General Aliases
 alias ls='ls -GFha';
 alias sortBySize="ls -s | sort -n";
@@ -31,11 +32,12 @@ alias watchStarWars='telnet towel.blinkenlights.nl';
 # For when you need a sarcastic laugh to talk down to others.
 alias HAHA='afplay -d -q 1 ~/Music/iTunes/iTunes\ Media/Music/Unknown\ Artist/'\
 'Unknown\ Album/HAHA.mp3'
+alias npmUpdate='sudo npm install -g npm'
 
 # -c[Grand total] -h [Human readable] -d [directory depth desired]
 alias subSize='du -c -h -d 1';
 alias bashProfile='more ~/.bash_profile';
-
+alias deployCommandCenter='rsync -chavzP --stats /Applications/MAMP/htdocs/* pi@10.0.1.69:/var/www/html'
 #TempMonitor App docs - http://www.bresink.de/osx/216202/Docs-en/commandline.html
 alias systemTemps='/Applications/TemperatureMonitor.app/Contents/MacOS/tempmonitor -f -l -a -ds';
 
@@ -125,7 +127,7 @@ define() {
 
 # PATHS
 # Used for spark - https://github.com/holman/spark
-export PATH=$PATH:~/Dropbox/Dev/shell/spark; 
+export PATH=$PATH:~/Dropbox/Dev/shell/spark;
 
 # Vim for default editor
 export EDITOR=vim;

@@ -81,7 +81,7 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: ['hyperborder', 'hyperterm-blink', 'hyperpower'],
+  plugins: ['hyperterm-blink', 'hyperpower'],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
