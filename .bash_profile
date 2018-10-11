@@ -33,6 +33,7 @@ alias watchStarWars='telnet towel.blinkenlights.nl';
 alias HAHA='afplay -d -q 1 ~/Music/iTunes/iTunes\ Media/Music/Unknown\ Artist/'\
 'Unknown\ Album/HAHA.mp3'
 alias npmUpdate='sudo npm install -g npm'
+alias brewUpgradeAll='brew update && brew upgrade'
 
 # -c[Grand total] -h [Human readable] -d [directory depth desired]
 alias subSize='du -c -h -d 1';
